@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:orientation="vertical"
+    android:paddingTop="30dp">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:paddingTop="7dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="date:"
+            android:id="@+id/name"
+
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/name"
+            android:textColor="@color/colorAccent"
+            android:text="sr"
+            android:textStyle="bold"
+            android:paddingLeft="1dp"/>
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/email"
+            android:textColor="#008000"
+            android:text="Class type"
+            android:textStyle="bold"
+            android:paddingLeft="1dp"/>
+
+
+        <TextView
+            android:id="@+id/tutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mobile"
+            android:textColor="#0000ff"
+            android:text="faculty"
+            android:textSize="8sp"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:paddingLeft="4dp"/>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+
+
+
+

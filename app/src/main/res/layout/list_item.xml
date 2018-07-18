@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="1dp">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="Subject"
+
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="2dip"
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_marginTop="1dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:divider="?android:dividerHorizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="4dp"
+        android:scrollHorizontally="true"
+        android:text="Subject code"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#999999"
+        android:textStyle="bold"/>
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Lect:"
+            android:id="@+id/lect"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/mobile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/lect"
+            android:textColor="@color/colorAccent"
+            android:text="80"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Tut:"
+            android:id="@+id/tut"
+            android:textStyle="bold"
+            android:paddingLeft="145dp"/>
+
+
+        <TextView
+            android:id="@+id/tutorial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tut"
+            android:textColor="@color/colorAccent"
+            android:text="80"
+            android:textStyle="bold"
+            android:paddingLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Total:"
+            android:id="@+id/tot"
+            android:textStyle="bold"
+            android:paddingLeft="290dp"/>
+
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/tut"
+            android:textColor="@color/colorAccent"
+            android:text="80"
+            android:textStyle="bold"
+            android:paddingLeft="160dp"
+            android:clickable="true"
+
+            android:onClick="parseJSON"/>
+
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <group
+        android:id="@+id/nav_g1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/home" />
+    </group>
+
+        <group
+            android:id="@+id/nav_g6"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_studentinfo"
+                android:icon="@drawable/ic_home"
+                android:title="Student Info" />
+        </group>
+
+    <group
+        android:id="@+id/nav_g2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_import"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Time Table"
+            />
+    </group>
+        <group
+            android:id="@+id/nav_g3"
+            android:checkableBehavior="single">
+
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/ic_menu_gallery"
+                android:title="Datesheet" />
+        </group>
+
+        <group
+            android:id="@+id/nav_g4"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_slideshow"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Subject Registered" />
+        </group>
+
+        <group
+            android:id="@+id/nav_g5"
+            android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_tools"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Log Out" />
+        </group>
+
+
+</group>
+</menu>

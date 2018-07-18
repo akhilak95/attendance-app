@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp"
+        android:id="@+id/linearLayout1">
+
+        <TextView
+            android:id="@+id/attendance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#E5e5e5"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:text="TUESDAY"
+
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#a40404" />
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/attendance"
+            android:stretchColumns="0"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tc"
+            android:id="@+id/showPopupBtn"
+            android:icon="@drawable/ic_menu_gallery"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

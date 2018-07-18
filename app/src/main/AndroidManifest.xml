@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.akhil.webkiosk">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Home"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Gallery"
+            android:label="@string/title_activity_gallery"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Import"
+            android:label="@string/title_activity_import"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Slideshow"
+            android:label="@string/title_activity_slideshow"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Tools"
+            android:label="@string/title_activity_tools"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DetailedAttendance" />
+        <activity
+            android:name=".FirstYear1"
+            android:label="First Year1" />
+        <activity
+            android:name=".SecondYear1"
+            android:label="First Year1" />
+        <activity
+            android:name=".ThirdYear1"
+            android:label="Third Year" />
+        <activity
+            android:name=".FourthYear1"
+            android:label="Fourth Year" />
+        <activity android:name=".Mon1" />
+        <activity android:name=".Tue1" />
+        <activity android:name=".Wed1" />
+        <activity android:name=".Thu1" />
+        <activity android:name=".Fri1" />
+        <activity android:name=".Sat1" />
+        <activity android:name=".ShowDataActivity" />
+        <activity
+            android:name=".SubjectRegistered"
+            android:label="@string/title_activity_subject_registered"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".StudentInfo"
+            android:label="@string/title_activity_student_info"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

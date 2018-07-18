@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="1dp">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="2dip"
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_marginTop="1dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:divider="?android:dividerHorizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="4dp"
+        android:scrollHorizontally="true"
+        android:text="name"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#999999"
+        android:textStyle="bold"/>
+
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="Enr No."
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="2dip"
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_marginTop="1dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:divider="?android:dividerHorizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="4dp"
+        android:scrollHorizontally="true"
+        android:text="Enrno."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#999999"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="Total Subjects"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="2dip"
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/mobile"
+        android:layout_marginTop="1dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:divider="?android:dividerHorizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="4dp"
+        android:scrollHorizontally="true"
+        android:text="total subjects"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#999999"
+        android:textStyle="bold"/>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="Current Semester"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="2dip"
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/tutorial"
+        android:layout_marginTop="1dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:divider="?android:dividerHorizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="4dp"
+        android:scrollHorizontally="true"
+        android:text="current sem"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#999999"
+        android:textStyle="bold"/>
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:text="Course And Branch"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="2dip"
+        android:paddingTop="20dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/total"
+        android:layout_marginTop="1dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:fontFamily="sans-serif-condensed"
+        android:freezesText="true"
+        android:divider="?android:dividerHorizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="4dp"
+        android:scrollHorizontally="true"
+        android:text="courseAndBranch"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#999999"
+        android:textStyle="bold"/>
+
+</LinearLayout>
